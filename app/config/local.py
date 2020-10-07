@@ -1,0 +1,5 @@
+SQLALCHEMY_DATABASE_URI = "sqlite:///local_db.db"
+SQLALCHEMY_TRACK_MODIFICATIONS = False
+MONGODB_DB = 'local_db'
+MONGODB_HOST = 'localhost'
+MONGODB_PORT = 27017
