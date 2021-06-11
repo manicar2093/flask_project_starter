@@ -1,6 +1,6 @@
-from ubweb.app_factory import create_app
-from ubweb.dbs import db
-from ubweb.config import testing
+from app.app_factory import create_app
+from app.dbs import db
+from app.config import testing
 import unittest
 import flask_mongoengine
 

@@ -1,7 +1,7 @@
 from flask import Flask
-from ubweb.dbs import db, mongo
-from ubweb.migrate import migrate
-from ubweb.web.routes import site
+from app.dbs import db, mongo
+from app.migrate import migrate
+from app.web.routes import site
 
 def create_app(config):
     app = Flask(__name__)
